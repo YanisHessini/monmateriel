@@ -1,0 +1,106 @@
+html, body {
+  overflow: hidden;
+}
+
+.window_wrapper {
+	background-color: lightsteelblue;
+	border-radius: 10px;
+	margin: 10%;
+	margin-top: 1%;
+}
+
+.window_title_wrapper {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.window_title {
+	font-size: 175%;
+	font-weight: bold;
+	font-style: italic;
+	padding: 8px 15px;
+	background-color: red;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.form_material {
+	padding: 5%;
+	font-size: larger;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+
+#msg {
+  font-size:14pt;
+	padding: 20px 25px;
+	margin: 8px 15px;
+	box-sizing: border-box; 
+	border-radius: 5px;
+	border-color: gray;
+	border-width: 3px;
+	width: 100%;
+
+	flex: 0 1 100%;
+}
+
+#form-msg {
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+	width: 100%;
+}
+
+input:not([type=reset],[type=submit],[id=msg]) {
+	width: 20vw;
+	padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box; 
+	border-radius: 5px;
+	border-color: gray;
+	border-width: 3px;
+  transition: width 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+	outline: none;
+	font-family: 'Montserrat';
+	font-size: medium;
+}
+
+.form_input {
+	margin-bottom: 2%;
+}
+
+input:not([type=reset],[type=submit], [id=msg]):focus {
+  border-color: red;
+	width: 40vw;
+	overflow: auto;
+}
+
+
+.btn_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.btn_add {
+	background-color: darkslategray;
+	color: white;
+	transition-duration: 0.3s;
+	border-radius: 10px;
+	font-size: 100%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	padding: 2%;
+	margin: 0% 2.5%;
+}
+
+.btn_add[value=Envoyer] {
+	background-color: green;
+}
+
+.btn_add:hover {
+	background-color: white;
+	color: black;
+}
+

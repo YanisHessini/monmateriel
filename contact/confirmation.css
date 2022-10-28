@@ -1,0 +1,38 @@
+.d_content_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h1 {
+	display: flex;
+  justify-content: center;
+}
+
+.d_title {
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 100%;
+}
+
+.d_return {
+  font-size: large;
+  font-family: 'Montserrat';
+  font-style: oblique;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 2% 2%;
+  padding: 5px 32px;
+
+  background-color: green;
+  color: white;
+
+  transition-duration: 0.2s;
+}
+
+.d_return:hover {
+	background-color: white;
+  color: black;
+}

@@ -1,0 +1,23 @@
+.content {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.disconnect_btn {
+	background-color: red;
+	color: white;
+	border-radius: 20px;
+	padding: 10%;
+	transition: 0.15s ease-in-out;
+	font-family: 'Montserrat';
+}
+
+.disconnect_btn:hover {
+
+	background-color: white;
+	color: black;
+
+}
